@@ -1,0 +1,143 @@
+{
+  "id": "8595e0d8-e57b-4f92-b7c5-98a47c68c78c",
+  "version": "2.0",
+  "name": "AppFuncVer",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "41a492c3-fa15-44e5-826d-3ee92223dfb4",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0e647f22-c4ea-403d-aedd-6e8bbe6cf50d",
+      "comment": "",
+      "command": "open",
+      "target": "/RoyG_BenN_YosefD_OrS_HadarK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5497da13-dfb7-40b6-bccc-533d07ed9f04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "538x740",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f95293ea-dcbb-4fa1-9fdd-6036d38b5dc8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input:nth-child(4)",
+      "targets": [],
+      "value": "submit"
+    }, {
+      "id": "6effb04e-8b5f-4f40-b611-e337eeb9eb7f",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a882e590-fc87-4c91-8096-c6f37a0fdf0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "MosheHamelech"
+    }, {
+      "id": "0f8ac96b-c8cb-4507-baf8-1e1b54b436c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ac094b-790f-46d0-b245-6fc4c1ec7ae3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "WalakMelech"
+    }, {
+      "id": "8190d578-c2a6-4393-9e37-dc187f77fdce",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92064b8-3656-4f2a-bd3a-544a7d019e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Form Processing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4599badd-ddb8-4b2a-aa6a-45fdf6e3b376",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "088d4313-1d72-44a0-bf53-862925e049b2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Form Processing')]", "xpath:innerText"]
+      ],
+      "value": "Form Processing"
+    }, {
+      "id": "b4e390d8-c65f-411d-b5f1-b873981c12ce",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "Welcome User: MosheHamelech"
+    }]
+  }],
+  "suites": [{
+    "id": "39dbdde9-ac4e-42e6-8118-81cba1ffd5ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["41a492c3-fa15-44e5-826d-3ee92223dfb4"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}
